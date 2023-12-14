@@ -1,0 +1,166 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.statusBar.visible": true,
+  "editor.fontFamily": "Menlo,Droid Sans Mono, monospace, Mono",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "explorer.compactFolders": false,
+  "prettier.arrowParens": "avoid",
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "none",
+  "prettier.semi": true,
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Monokai Dimmed",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "python.terminal.executeInFileDir": true,
+  "editor.fontSize": 14,
+  "files.autoSave": "onWindowChange",
+  "javascript.format.semicolons": "insert",
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.tabs.enabled": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.cursorWidth": 3,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 3,
+  "window.zoomLevel": 1,
+  "vsicons.dontShowNewVersionMessage": true,
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    "NOTE:",
+    "HACK:",
+    "TODO:",
+    "FIX:",
+    {
+      "text": "NOTE:",
+      "color": "#37393A",
+      "backgroundColor": "#1168D9",
+      "isWholeLine": true
+    },
+    {
+      "text": "HACK:",
+      "color": "#37393A",
+      "backgroundColor": "#6F61A5",
+      "isWholeLine": true
+    },
+    {
+      "text": "TODO:",
+      "color": "#37393A",
+      "backgroundColor": "#038C4C",
+      "isWholeLine": true
+    },
+    {
+      "text": "FIX:",
+      "color": "#37393A",
+      "backgroundColor": "#D13B42",
+      "isWholeLine": true
+    },
+    {
+      "text": "SECTION:",
+      "color": "#37393A",
+      "backgroundColor": "#F07043",
+      "isWholeLine": true
+    }
+  ],
+  "workbench.colorCustomizations": {
+    "editor.background": "#262626",
+    "terminal.background": "#262626",
+    "terminal.foreground": "#D9D8D7",
+    "terminalCursor.background": "#262626",
+    "terminalCursor.foreground": "#BFBFBF",
+    "terminal.ansiBlack": "#141414",
+    "terminal.ansiBlue": "#0B64D9",
+    "terminal.ansiBrightBlack": "#2EA1FF",
+    "terminal.ansiBrightBlue": "#0B79D9",
+    "terminal.ansiBrightCyan": "#DBF227",
+    "terminal.ansiBrightGreen": "#48E026",
+    "terminal.ansiBrightMagenta": "#8959A8",
+    "terminal.ansiBrightRed": "#C82829",
+    "terminal.ansiBrightWhite": "#1D1F21",
+    "terminal.ansiBrightYellow": "#EAB700",
+    "terminal.ansiCyan": "#DBF227",
+    "terminal.ansiGreen": "#2B8C44",
+    "terminal.ansiMagenta": "#8959A8",
+    "terminal.ansiRed": "#C82829",
+    "terminal.ansiWhite": "#4D4D4C",
+    "terminal.ansiYellow": "#EAB700"
+  },
+  "todohighlight.defaultStyle": {
+    "overviewRulerColor": ""
+  },
+
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.languageServer": "Pylance",
+  "python.analysis.completeFunctionParens": true,
+
+  "python.defaultInterpreterPath": "/usr/local/bin/python3",
+  "flake8.args": ["--max-line-length=120"],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSaveMode": "modifications",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
+  },
+  "editor.fontLigatures": false,
+  "json.schemas": [],
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["entity.name.type.class"],
+        "settings": {
+          "foreground": "#7b4348"
+        }
+      },
+      {
+        "scope": ["string.quoted.single.python"],
+        "settings": {
+          "foreground": "#3e62c6"
+        }
+      },
+      {
+        "scope": ["entity.name.namespace"],
+        "settings": {
+          "foreground": "#25904a"
+        }
+      },
+      {
+        "scope": ["variable.other.readwrite"],
+        "settings": {
+          "foreground": "#b03333"
+        }
+      },
+      {
+        "scope": ["keyword.control.flow.python"],
+        "settings": {
+          "foreground": "#6f6694"
+        }
+      },
+      {
+        "scope": ["keyword.session.sas"],
+        "settings": {
+          "foreground": "#5c48a9"
+        }
+      }
+    ]
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.openRepositoryInParentFolders": "never",
+  "terminal.integrated.shellIntegration.enabled": false,
+  "files.trimTrailingWhitespace": true,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 79,
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "editor.fontVariations": false,
+  "editor.codeActionsOnSave": {}
+}
